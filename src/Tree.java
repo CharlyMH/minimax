@@ -9,21 +9,6 @@ public class Tree {
     public Tree() {
     }
 
-    public Tree(Integer value, Tree right, Tree left) {
-        this.value = value;
-        this.right = right;
-        this.left = left;
-    }
-
-    public Tree(Tree right, Tree left) {
-        this.right = right;
-        this.left = left;
-    }
-
-    public Tree(Integer value) {
-        this.value = value;
-    }
-
     public int profundidad(){
         return calprof(this);
     }
